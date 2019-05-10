@@ -1,25 +1,69 @@
-<div class="container">  
-  <form id="contact" action="" method="post">
-    <h3>Colorlib Contact Form</h3>
-    <h4>Contact us for custom quote</h4>
-    <fieldset>
-      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your Email Address" type="email" tabindex="2" required>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
-    </fieldset>
-    <fieldset>
-      <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-    </fieldset>
-    <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-    </fieldset>
-    <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
-  </form>
-</div>
+<div class="stl_condition floating_box" style="">
+            <div class="stl_center_location condition_row">
+                <span class="cd_name">중심위치</span>
+                <span>
+                    <select class="location1">
+                        <option>미지정</option>
+                        
+                            <option data-idx="205325">강원도</option>
+                        
+                            <option data-idx="204814">경기도</option>
+                        
+                            <option data-idx="206458">경상남도</option>
+                        
+                            <option data-idx="206165">경상북도</option>
+                        
+                            <option data-idx="204423">광주광역시</option>
+                        
+                            <option data-idx="204108">대구광역시</option>
+                        
+                            <option data-idx="204601">대전광역시</option>
+                        
+                            <option data-idx="203931">부산광역시</option>
+                        
+                            <option data-idx="203524">서울특별시</option>
+                        
+                            <option data-idx="204803">세종특별자치시</option>
+                        
+                            <option data-idx="204743">울산광역시</option>
+                        
+                            <option data-idx="204288">인천광역시</option>
+                        
+                            <option data-idx="205985">전라남도</option>
+                        
+                            <option data-idx="205754">전라북도</option>
+                        
+                            <option data-idx="206764">제주특별자치도</option>
+                        
+                            <option data-idx="205627">충청남도</option>
+                        
+                            <option data-idx="205489">충청북도</option>
+                        
+                    </select>
+                </span>
+                <span>
+                    <select class="location2"><option>미지정</option><option data-idx="206415">경산시</option><option data-idx="206203">경주시</option><option data-idx="206451">고령군</option><option data-idx="206298">구미시</option><option data-idx="206445">군위군</option><option data-idx="206242">김천시</option><option data-idx="206403">문경시</option><option data-idx="206455">봉화군</option><option data-idx="206366">상주시</option><option data-idx="206452">성주군</option><option data-idx="206261">안동시</option><option data-idx="206449">영덕군</option><option data-idx="206448">영양군</option><option data-idx="206324">영주시</option><option data-idx="206336">영천시</option><option data-idx="206454">예천군</option><option data-idx="206457">울릉군</option><option data-idx="206456">울진군</option><option data-idx="206446">의성군</option><option data-idx="206450">청도군</option><option data-idx="206447">청송군</option><option data-idx="206453">칠곡군</option><option data-idx="206166">포항시</option><option data-idx="206167">포항시 남구</option><option data-idx="206182">포항시 북구</option></select>
+                </span>
+                <span>
+                    <select class="location3" disabled=""><option>미지정</option></select>
+                </span>
+            </div>
+            <div class="condition_distance condition_row">
+                <span class="cd_name">거리범위</span>
+                <input type="number" class="txt_max_distance" value="70"> km 이내 
+            </div>
+            <div class="condition_grade condition_row">
+                <span class="cd_name">등급(PM<sub>10</sub>)</span>
+                <ul class="filter_grade">
+                    <li><input type="checkbox" id="check_grade1" name="grade" value="1" checked=""><label for="check_grade1">좋음</label></li>
+                    <li><input type="checkbox" id="check_grade2" name="grade" value="2" checked=""><label for="check_grade2">보통</label></li>
+                    <li><input type="checkbox" id="check_grade3" name="grade" value="3" checked=""><label for="check_grade3">나쁨</label></li>
+                    <li><input type="checkbox" id="check_grade4" name="grade" value="4" checked=""><label for="check_grade4">매우나쁨</label></li>
+                    <li><input type="checkbox" id="check_grade0" name="grade" value="0" checked=""><label for="check_grade0">정보없음</label></li>
+                </ul>
+            </div>
+            <div class="guide">
+                정보없음: 최근 2시간내 갱신이 없거나 최신값이 비정상인 곳
+            </div>
+            <button class="btn_ok">적용</button>
+        </div>
