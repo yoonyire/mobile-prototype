@@ -11,8 +11,8 @@
     </style>
     </head>
   <body>
-    
-    <fieldset style="width: 900px; border: solid black 1px; font-size: 10px">
+    <div class="buttons" style="width: 500px; height: 150px; top: 100px; left: 250px">
+   
     <input type="hidden" name="url" value="<?=$outlogin_url?>">
     <li><label for="ol_id" id="ol_idlabel" >회원아이디</label>
     <input type="text" id="ol_id" name="mb_id" maxlength="20" required title="회원아이디"></li>
@@ -27,10 +27,8 @@
         </li>
         <li><a href="<?=$g4['bbs_url']?>/register.php">회원가입</a></li>
         <li><a href="<?=$g4['bbs_url']?>/password_lost.php" id="ol_password_lost">ID/비밀번호 찾기</a></li>
-    </ul>
-  
-      
-      </fieldset>
+    </ul> 
+     </div>
     </body>
 </html>
 
